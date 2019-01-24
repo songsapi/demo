@@ -27,7 +27,7 @@ public class RandomSelectName {
                 list1.add(s);
 
                 System.out.println("======");
-                System.out.println();
+
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
