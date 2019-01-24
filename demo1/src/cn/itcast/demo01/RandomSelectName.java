@@ -25,6 +25,8 @@ public class RandomSelectName {
             String s = null;
             while ((s = bf1.readLine()) != null) {
                 list1.add(s);
+
+                System.out.println("======");
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
